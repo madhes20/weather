@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 550px;
+    height: 350px;
+    background-color:black;
+    opacity:0.8;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form{
+    width:auto;
+    height: 50px;
+    background-color: white;  
+    border-radius: 8px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+::placeholder{
+    color: black;
+}
+
+#city{
+    height: 40px;
+    margin: 10px;
+    padding: 8px;
+}
+
+#degree{
+    margin: 10px;
+    padding: 8px;
+}
+
+#degree h1{
+    font-size: 50px;
+}
+
+
+#scenario{
+    margin: 10px 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
+#scenario h3{
+    padding-left: 10px;
+}
+
+#add-info{
+    margin: 0px 10px 0px 10px;
+    padding: 8px;
+}
+
+.invalid{
+    /* background-color: yellow; */
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.display{
+    display: none;
+}
